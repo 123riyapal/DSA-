@@ -4,8 +4,7 @@ int sumOfArray(int i,int arr[],int size,int sum){
 if(i==size){
     return sum ;
 }
-sum = sumOfArray(i+1,arr,size,sum+arr[i]);
-return sum;
+return sumOfArray(i+1,arr,size,sum+arr[i]);
 
 }
 
