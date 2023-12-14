@@ -30,14 +30,6 @@ int main()
     }
 
     bubbleSort(arr, n); /* "<-- this take Approx(o(n^2)) time complexity \--> " */
-
-    //  for(int i=0;i<n-1;i++){
-    //     for(int j=i+1;j<n;j++){
-    //         if(arr[i]>arr[j]){   <-- this take o(n^2) time complexity /-->
-    //             swap(arr[i],arr[j]);
-    //         }
-    //     }
-    //  }
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
