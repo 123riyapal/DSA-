@@ -1,1 +1,0 @@
-MyQueue queue(10);
